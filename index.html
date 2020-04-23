@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humidity</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -58,14 +58,14 @@
 
     <div class="container">
     
-    <!-- Section containing the report  -->
+    <!-- Section containing the summary  -->
         <div class="row">
            
             <div class="col-md-8">
                 <div class="jumbotron" style="background-color: white;">
-                    <h1 class="display-4" style="color: lightblue;">Humidity</h1>
-                    <img src="resources/Fig2.png" class="img-fluid" alt="Responsive image">
-                    <p>In this visualization the plot is trying to find a correlation between humidity and latitude.  Despite humidity contributing to the feeling of temperature, this plot shows that there really is no correlation between lattitude and humidity.  It is just as likely to find humidity percentages of all kinds at any degree of latitude.</p>
+                    <h1 class="display-4" style="color: lightblue;">Summary: Latitude vs. X</h1>
+                    <p id="landing_text">The purpose of this project was to analyze how the weather changed when moving closer to and farther away from the equator.  In order to achieve this objective, data was obtained using the OpenWeather API and these values represent over 500 randomly selected cities.</p>
+                    <p id="landing_text">After the data was collected, Matplotlib was used to plot variables comparing weather to Latitude.  These factors include, maimum temperature, humidity, cloudiness and wind speed.  This site provides the source data, the visualizations created, and the analyses uncovered by the correlations between weather and Latitude.</p>
                 </div>
             </div>
     <!-- Section with the four plots -->
@@ -76,12 +76,12 @@
                     <div class="row">
                         <div class="col-md-6">
                           <a href="visualization_1.html" target="_blank">
-                            <img src="resources/Fig1.png" class ="img-fluid" alt="Responsive image">
+                            <img src="Web_Visualizations/resources/Fig1.png" class ="img-fluid" alt="Responsive image">
                           </a>
                         </div>
                         <div class="col-md-6">
                           <a href="visualization_2.html" target="_blank">
-                            <img src="resources/Fig2.png" class ="img-fluid" alt="Responsive image" id="current">
+                            <img src="Web_Visualizations/resources/Fig2.png" class ="img-fluid" alt="Responsive image">
                           </a>
 
                         </div>
@@ -90,14 +90,14 @@
                     <div class="row">
 
                         <div class="col-md-6">
-                          <a href="visualization_3.html" target="_blank">
-                            <img src="resources/Fig3.png" class ="img-fluid" alt="Responsive image">
+                          <a href="visualization_2.html" target="_blank">
+                            <img src="Web_Visualizations/resources/Fig3.png" class ="img-fluid" alt="Responsive image">
                           </a>
                         </div>
 
                         <div class="col-md-6">
-                          <a href="visualization_4.html" target="_blank">
-                            <img src="resources/Fig4.png" class ="img-fluid" alt="Responsive image">
+                          <a href="visualization_2.html" target="_blank">
+                            <img src="Web_Visualizations/resources/Fig4.png" class ="img-fluid" alt="Responsive image">
                           </a>
                         </div>
 
